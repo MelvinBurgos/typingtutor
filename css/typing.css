@@ -1,0 +1,98 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+@font-face {
+       font-family: Remington;
+       src: url('fonts/SilkRemington-SBold.ttf')  format('truetype');
+}
+
+@font-face {
+       font-family: SpecialElite;
+       src: url('fonts/SpecialElite.ttf')  format('truetype');
+}
+
+body {
+	background-color: #7f7f7f;
+}
+
+div.muestra {
+	background-color: #ffffff;
+	border-radius: 10px;
+	font-size: 32px;
+	padding: 15px;
+}
+
+div.tarea {
+	background-color: #99ff99;
+}
+
+div.mensaje {
+	width:100px;
+	height:60px;	
+	background-color: red;
+}
+
+div.contador {
+	width:45px;
+	height:30px;	
+	background-color: blue;
+	font-size:1.3em;
+	color: white;
+}
+
+div#Contenedor {
+	margin:auto;
+	width:1260px;
+	height:650px;	
+}
+
+div#Contaner {
+	margin:auto;
+	width:960px;
+	height:650px;	
+}
+
+div#Encabezado {
+	margin-top:30px;
+	width:960px;
+	height:100px;
+	background-color:orange;
+	float:left;
+}
+
+div#Cuerpo {
+	margin-top:20px;
+	width:950px;
+	height:200px;
+	float:left;
+}
+
+div#Body {
+	margin-top:20px;
+	width:950px;
+	height:200px;
+	float:left;
+}
+
+div#Resultados {
+	margin-top:20px;
+	width:310px;
+	height:300px;
+	background-color:#01df74;
+	float:right;
+}
+
+div.slide {
+	word-spacing: 15cm;
+	color: white;
+	background-color: #000000;
+	border-radius: 10px;
+	font-size: 32px;
+	padding: 15px;
+}
+
+div#Paper {
+        font-family: Remington;
+}
